@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+       
+        header {
+            height: 75px;
+            width: 500px;
+            background-color: #f8f6f3;
+            border: 3px solid #5e513a;
+            border-radius: 10px;
+            margin: auto;
+        }
+
+        header h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding-top: 18px;
+        }
+        body {
+    background-color: #f8f5f0; 
+}
+
+    </style>
+</head>
+<body>
+    <header> 
+        <h1> Hábito de Leitura</h1>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend><h3>Preferências De Gêneros Literários</h3></legend>
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked />
+                Romance
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked />
+                Terror</label>
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked />
+                Ficção Ciêntifica</label>
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked />
+                Fatos Reais</label>
+                <label for="newsletter">
+            <input type="checkbox" id="newsletter" name="newsletter" checked />
+                Poesia</label>
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked />
+                 Biográfia</label>
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked />
+                outros</label>
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend><h3>Preferências De Gêneros Literários</h3></legend>
+                <label for="frequencia">Com que frequência você anda lendo?</label>
+                <select id="frequencia" name="frequencia" required>
+                    <option value="diariamente">Diariamente</option>
+                    <option value="semanalmente">Semanalmente</option>
+                    <option value="mensalmente">Mensalmente</option>
+                    <option value="raramente">Raramente</option>
+                </select>
+                
+        </fieldset>
+
+    <fieldset>
+            <legend><h3>livro Lido Recentemente </h3></legend>
+            <label for="name">Nome do Livro:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Digite seu nome"
+            />
+            <label for="frequencia">Quantas estrelas daria?</label>
+                <select id="frequencia" name="frequencia" required>
+                    <option value="raramente">0</option>
+                    <option value="diariamente">1</option>
+                    <option value="semanalmente">2</option>
+                    <option value="mensalmente">3</option>
+                    <option value="raramente">4</option>
+                    <option value="raramente">5</option>
+                </select>
+            </fieldset>
+                <button type="submit">Enviar</button>
+           
+    </main>
+</body>
+</html>
